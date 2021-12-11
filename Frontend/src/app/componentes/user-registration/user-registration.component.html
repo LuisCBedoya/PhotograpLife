@@ -1,0 +1,69 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="wrapper wrapper--w900">
+        <div class="card card-6">
+            <div class="card-heading">
+                <h2 class="title px-3 py-2">Fotograp<span class="life">Life</span></h2>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="registrationForm" (ngSubmit)="register()">
+                    <div class="form-row ">
+                        <div class="name m-b-55">Nombre</div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" name="full_name" formControlName="name">
+                        </div>
+                        <div class="name m-b-55">Apellido</div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" name="full_name" formControlName="lastName">
+                        </div>
+                        <div class="name">Nombre de usuario</div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" name="full_name" formControlName="userName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name m-b-55">Correo electronico</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input class="input--style-6" type="email" name="email" placeholder="Ejemplo@email.com">
+                            </div>
+                        </div>
+                        <div class="name">Contraseña</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <input class="input--style-6" type="password" name="email" placeholder="Contraseña"
+                                    formControlName="password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="name">Descripción</div>
+                        <div class="value">
+                            <div class="input-group">
+                                <textarea class="textarea--style-6" name="message"
+                                    placeholder="Ingresa una descripción de ti"
+                                    formControlName="description"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="form-row">
+                        <div class="name">Subir foto</div>
+                        <div class="value">
+                            <div class="input-group js-input-file">
+                                <input class="input-file" type="file" name="file_cv" id="file">
+                                <label class="label--file" for="file">Elija el archivo</label>
+                                <span class="input-file__info">No file chosen</span>
+                            </div>
+                            <div class="label--desc">Sube tu CV / CV o cualquier otro archivo relevante. Tamaño máximo
+                                de archivo 10 MB</div>
+                        </div>
+                    </div> -->
+                </form>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn--radius-2 btn--blue-2" type="submit">Registrarse</button>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<section>
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100">
+        <form class="mb-2" [formGroup]="loginForm" (ngSubmit)="login()">
+          <div class="mb-5 pb-3 text-center">
+            <a class="navbar-brand fs-4 fw-bold text-primary" href="#">Photograp<span class="fst-italic">Life</span></a>
+          </div>
+          <div class="wrap-input100 ">
+            <input class="input100" type="text" name="email" placeholder="Nombre de usuario" formControlName="userName">
+            <span class="focus-input100" data-placeholder=""></span>
+          </div>
+
+          <div class="wrap-input100" data-validate="Enter password">
+            <span class="btn-show-pass">
+              <i class="fas fa-eye"></i>
+            </span>
+            <input class="input100" type="password" name="pass" placeholder="Contraseña" formControlName="password">
+            <span class="focus-input100" data-placeholder=""></span>
+          </div>
+
+          <div class=" mb-5 pt-4">
+            <div class="btn btn-primary rounded-pill login">
+              <div class=""></div>
+              <button class="text-white fw-bold" type="submit">
+                Iniciar
+              </button>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <span class="txt1">
+              ¿No tienes una cuenta?
+            </span>
+
+            <a class="txt2" href="#">
+              Regístrate ahora
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+<app-footer></app-footer>

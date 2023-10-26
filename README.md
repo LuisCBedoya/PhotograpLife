@@ -1,2 +1,2 @@
-# PhotograpLife
-Nuestra idea es crear una página web donde fotógrafos amateurs tengan la oportunidad de mostrar sus mejores fotos y que estos pueden llegar a miles de usuarios.
+## PhotograpLife
+Nuestra propuesta implica la creación de una plataforma en línea dedicada a proporcionar una vitrina exclusiva para fotógrafos aficionados. Este espacio digital estaría diseñado específicamente para que estos artistas tengan la oportunidad de exhibir fotográfias ante una audiencia vasta y diversa. A través de esta plataforma, los fotógrafos amateurs podrán compartir sus mejores imágenes, permitiéndoles alcanzar una audiencia potencial de miles de usuarios interesados en la fotografía. Esta iniciativa no solo servirá como un escaparate para su talento, sino que también fomentará la comunidad y el intercambio de conocimientos dentro del mundo de la fotografía amateur.
